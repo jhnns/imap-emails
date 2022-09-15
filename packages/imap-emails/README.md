@@ -1,6 +1,6 @@
 # imap-emails
 
-[![Node version](https://img.shields.io/node/v/[imap-emails].svg?style=flat)](https://www.npmjs.com/package/imap-emails)
+[![npm](https://img.shields.io/npm/v/imap-emails)](https://www.npmjs.com/package/imap-emails)
 
 **ImapEmails** is wrapping "_imap_" and "_mailparser_" library and exposes simple interface to fetch your latest emails from Gmail or any other inbox supporting IMAP
 
