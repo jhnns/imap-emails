@@ -1,6 +1,6 @@
 {
   "name": "imap-emails",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ImapEmails is wrapping 'imap' and 'mailparser' library and exposes simple interface to fetch your latest emails from Gmail or any other inbox supporting IMAP",
   "keywords": [
     "imap",
