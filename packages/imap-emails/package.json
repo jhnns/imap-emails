@@ -1,0 +1,28 @@
+{
+  "name": "imap-emails",
+  "version": "1.0.0",
+  "description": "ImapEmails is wrapping 'imap' and 'mailparser' library and exposes simple interface to fetch your latest emails from Gmail or any other inbox supporting IMAP",
+  "keywords": [
+    "imap",
+    "node-imap",
+    "mailparser",
+    "gmail",
+    "emails",
+    "inbox"
+  ],
+  "homepage": "https://github.com/michal-wrzosek/imap-emails",
+  "license": "MIT",
+  "author": {
+    "email": "michal@wrzosek.pl",
+    "name": "Michal Wrzosek",
+    "url": "https://github.com/michal-wrzosek"
+  },
+  "dependencies": {
+    "imap": "^0.8.19",
+    "mailparser": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/imap": "^0.8.35",
+    "@types/mailparser": "^3.4.0"
+  }
+}
