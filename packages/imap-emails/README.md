@@ -20,7 +20,7 @@ _Typescript types are already there, no need to install additional `@types/...` 
 
 ## How to use
 
-Fetching gmail emails from 1st of September 2022:
+Fetching gmail emails since 1st of September 2022:
 
 ```typescript
 const imapEmails = await ImapEmails({
