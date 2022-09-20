@@ -23,7 +23,7 @@ _Typescript types are already there, no need to install additional `@types/...` 
 Fetching gmail emails since 1st of September 2022:
 
 ```typescript
-const imapEmails = await ImapEmails({
+const imapEmails = new ImapEmails({
   username: 'example@gmail.com',
   password: 'example-gmail-app-password',
 });
@@ -40,7 +40,7 @@ await imapEmails.disconnect();
 If you want to tweak IMAP settings or connect to some other inbox then Gmail you can provide `imapConfig` prop in the constructor:
 
 ```typescript
-const imapEmails = await ImapEmails({
+const imapEmails = new ImapEmails({
   username: 'example@gmail.com',
   password: 'example-gmail-app-password',
   imapConfig: {
