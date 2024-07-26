@@ -93,7 +93,7 @@ export class ImapEmails {
 
   public disconnect(): Promise<void> {
     return new Promise<void>((resolve) => {
-      this.imap.once('end', () => {
+      this.imap.once('close', () => {
         resolve();
       });
 
